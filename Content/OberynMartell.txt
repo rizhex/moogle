@@ -1,0 +1,12 @@
+UnitCard
+{
+    Text Name = "Oberyn Martell";
+    Text Path = "/band0/OberynMartell.jpg";
+    PowerSet "None"
+    {
+    }
+    Text Phrase = "Someday, if you're lucky, you will wake up and realize you are old.";
+    Text Position = "Melee";
+    Number Attack = 12;
+}
+

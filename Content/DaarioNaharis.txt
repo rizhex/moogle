@@ -1,0 +1,11 @@
+UnitCard
+{
+    Text Name = "Daario Naharis";
+    Text Path = "/band0/DaarioNaharis.jpg";
+    PowerSet "None"
+    {
+    }
+    Text Phrase = "I'm the simplest man you'll ever meet. I only do what I want to do.";
+    Text Position = "Melee";
+    Number Attack = 10;
+}

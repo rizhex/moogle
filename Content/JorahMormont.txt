@@ -1,0 +1,12 @@
+UnitCard
+{
+    Text Name = "Jorah Mormont";
+    Text Path = "/band0/JorahMormont.jpg";
+    PowerSet "powers"
+    {
+    }
+    Text Phrase = "Don't ask me to stand aside as you climb on that pyre. I won't watch you burn.";
+    Text Position = "Melee";
+    Number Attack = 6;
+}
+

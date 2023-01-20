@@ -1,0 +1,13 @@
+UnitCard
+{
+    Text Name = "Asha Greyjoy";
+    Text Path = "/band0/AshaGreyjoy.jpg";
+    PowerSet "None"
+    {
+	}
+     
+    Text Phrase = "Yes, I am Asha of the Greyjoy House, although not everyone agrees with the lady.";
+    Text Position = "Melee";
+    Number Attack = 7;
+}
+

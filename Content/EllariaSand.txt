@@ -1,0 +1,25 @@
+UnitCard
+{
+    Text Name = "Ellaria Sand";
+    Text Path = "/band0/EllariaSand.jpg";
+    PowerSet "powers"{
+		Power "Assasination"
+	    {
+	        ConditionSet
+	        {
+	            
+	        }
+	        InstructionSet
+	        {
+	            Instruction
+	            {
+	                Destroy(1)
+	            }
+	        }
+	    }
+	}
+    Text Phrase = "We don't need an army to start a war.";
+    Text Position = "Middle";
+    Number Attack = 4;
+}
+

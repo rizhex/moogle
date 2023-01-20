@@ -1,0 +1,28 @@
+EffectCard
+{
+    Text Name = "Ice0";
+    Text Path = "/band0/Ice0.jpg";
+    PowerSet "power"{
+	Power "Reduce Damage"
+    {
+        ConditionSet
+        {
+            
+        }
+        InstructionSet
+        {
+            Instruction
+            {
+                ModifyAttack(-5, OwnMelee)
+            }
+            Instruction
+            {
+                ModifyAttack(-5, EnemyMelee)
+            }
+        }
+    }
+	}
+    Text Position = "Weather";
+}
+
+

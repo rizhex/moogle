@@ -1,0 +1,29 @@
+UnitCard
+{
+    Text Name = "Tyrion Lannister";
+    Text Path = "/band0/TyrionLannister.jpg";
+    PowerSet "power"{
+	Power "Wisdom"
+    {
+        ConditionSet
+        {
+            
+        }
+        InstructionSet
+        {
+            Instruction
+            {
+                Draw(3)
+            }
+            Instruction
+            {
+                Reborn(OwnGraveryard, Card "Varys")
+            }
+        }
+    }
+	}
+    Text Phrase = "A mind needs books like a sword needs a whetstone.";
+    Text Position = "Middle";
+    Number Attack = 3;
+}
+

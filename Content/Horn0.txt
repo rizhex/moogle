@@ -1,0 +1,24 @@
+EffectCard
+{
+    Text Name = "Horn0";
+    Text Path = "/band0/Horn0.jpg";
+    PowerSet "power"{
+	Power "Moral support"
+    {
+        ConditionSet
+        {
+            
+        }
+        InstructionSet
+        {
+            Instruction
+            {
+                ModifyAttack(5, FreeElection)
+            }
+        }
+    }
+	}
+    Text Position = "Support";
+}
+
+

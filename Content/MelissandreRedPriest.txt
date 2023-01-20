@@ -1,0 +1,28 @@
+UnitCard
+{
+    Text Name = "Melissandre";
+    Text Path = "/band0/MelissandreRedPriest.jpg";
+    PowerSet "powers"{
+		Power "Resurrect"
+	    {
+	        ConditionSet
+	        {
+	            Condition
+	            {
+	                Compare(NumberOfCardsIn(OwnGraveryard), 0, >)
+	            }
+	        }
+	        InstructionSet
+	        {
+	            Instruction
+	            {
+	                Reborn(OwnGraveryard, 1)
+	            }
+	        }
+	    }
+	}
+    Text Phrase = "Death by fire is the purest death.";
+    Text Position = "Middle";
+    Number Attack = 7;
+}
+

@@ -1,0 +1,25 @@
+UnitCard
+{
+    Text Name = "Grey Worm";
+    Text Path = "/band0/GreyWorm.jpg";
+    PowerSet "powers"{
+		Power "EnemyFear"
+	    {
+	        ConditionSet
+	        {
+	            
+	        }
+	        InstructionSet
+	        {
+	            Instruction
+	            {
+	                ModifyAttack(-4, EnemyMelee)
+	            }
+	        }
+	    }
+	}
+    Text Phrase = "All men must die. But I promise you, a single day of freedom is worth more than a lifetime in chains.";
+    Text Position = "Melee";
+    Number Attack = 12;
+}
+

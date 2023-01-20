@@ -1,0 +1,29 @@
+UnitCard
+{
+    Text Name = "Dothraki Soldier0";
+    Text Path = "/band0/DothrakiSoldier0.jpg";
+   PowerSet "Powers"{
+	Power "Assistance"
+    {
+        ConditionSet
+        {
+            
+        }
+        InstructionSet
+        {
+            Instruction
+            {
+                Summon(Card "Dothraki Soldier1")
+            }
+            Instruction
+            {
+                Summon(Card "Dothraki Soldier2")
+            }
+        }
+    }
+	}
+    Text Phrase = "Fichas jahakes moon!.";
+    Text Position = "Melee";
+    Number Attack = 5;
+}
+

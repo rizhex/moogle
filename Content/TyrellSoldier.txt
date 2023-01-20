@@ -1,0 +1,12 @@
+UnitCard
+{
+    Text Name = "Tyrell Soldier";
+    Text Path = "/band0/TyrellSoldier.jpg";
+    PowerSet "None"
+    {
+    }
+    Text Phrase = "Grow strong.";
+    Text Position = "Melee";
+    Number Attack = 4;
+}
+

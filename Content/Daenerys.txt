@@ -1,0 +1,45 @@
+LeaderCard
+{
+    Text Name = "Daenerys Targaryen";
+    Text Path = "/band0/Daenerys.jpg";
+    PowerSet "Tu tia"
+	{
+		Power "DragonCommand"
+    {
+        ConditionSet
+        {
+            Condition
+            {
+                ExistCardIn(Card "Drogon", AllExistingCards)   
+            }
+			Condition
+            {
+                ExistCardIn(Card "Rhaegal", AllExistingCards)   
+            }
+			Condition
+            {
+                ExistCardIn(Card "Viserion", AllExistingCards)   
+            }
+			
+			
+        }
+        InstructionSet
+        {
+            Instruction
+            {
+                Destroy(EnemyMelee)         
+            }
+            Instruction
+            {
+                Destroy(EnemySiege)
+            }
+            Instruction
+            {
+                Destroy(EnemyMiddle)
+            }
+        }
+    }	
+	}
+    Text Phrase = "I will take what is mine with fire and blood.";
+}
+

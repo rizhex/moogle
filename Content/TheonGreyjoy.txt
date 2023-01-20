@@ -1,0 +1,25 @@
+UnitCard
+{
+    Text Name = "Theon Greyjoy";
+    Text Path = "/band0/TheonGreyjoy.jpg";
+    PowerSet "power"{
+	Power "CardChange"
+    {
+        ConditionSet
+        {
+            
+        }
+        InstructionSet
+        {
+            Instruction
+            {
+                Draw(1)
+            }
+        }
+    }
+	}
+    Text Phrase = "Only a fool humbles himself when the world is so full of men willing to do the job for him.";
+    Text Position = "Melee";
+    Number Attack = 1;
+}
+

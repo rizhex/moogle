@@ -1,0 +1,13 @@
+UnitCard
+{
+    Text Name = "Drogon";
+    Text Path = "/band0/Drogon.jpg";
+    PowerSet "None"
+    {
+    }
+    Text Phrase = "Dracarys!";
+    Text Position = "Siege";
+    Number Attack = 15;
+}
+
+

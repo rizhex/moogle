@@ -1,0 +1,27 @@
+EffectCard
+{
+    Text Name = "Rain0";
+    Text Path = "/band0/Rain0.jpg";
+    PowerSet "Lluvia"{
+	Power "ReduceDamage"
+    {
+        ConditionSet
+        {
+           
+        }
+        InstructionSet
+        {
+            Instruction
+            {
+                ModifyAttack(-5, OwnSiege)   
+            }
+            Instruction
+            {
+                ModifyAttack(-5, EnemySiege)
+            }
+        }
+    }}
+    Text Position = "Weather";
+}
+
+

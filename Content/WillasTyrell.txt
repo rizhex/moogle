@@ -1,0 +1,28 @@
+UnitCard
+{
+    Text Name = "Willas Tyrell";
+    Text Path = "/band0/WillasTyrell.jpg";
+    PowerSet "power"{
+	Power "Support"
+    {
+        ConditionSet
+        {
+            Condition
+            {
+                Compare(NumberOfCardsIn(OwnMiddle), 0, >)    
+            }
+        }
+        InstructionSet
+        {
+            Instruction
+            {
+                ModifyAttack(2, OwnMiddle)   
+            }
+        }
+    }
+	}
+    Text Phrase = "She said: Willas has a bad leg but a good heart.";
+    Text Position = "Middle";
+    Number Attack = 2;
+}
+

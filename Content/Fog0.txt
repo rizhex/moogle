@@ -1,0 +1,28 @@
+EffectCard
+{
+    Text Name = "Fog0";
+    Text Path = "/band0/Fog0.jpg";
+    PowerSet "power"{
+	Power "ReduceDamage"
+    {
+        ConditionSet
+        {
+            
+        }
+        InstructionSet
+        {
+            Instruction
+            {
+                ModifyAttack(-4, OwnMiddle)
+            }
+            Instruction
+            {
+                ModifyAttack(-4, EnemyMiddle)
+            }
+        }
+    }
+	}
+    Text Position = "Weather";
+}
+
+

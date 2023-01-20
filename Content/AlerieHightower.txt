@@ -1,0 +1,29 @@
+UnitCard
+{
+    Text Name = "Allerie Hightower";
+    Text Path = "/band0/AlerieHightower.jpg";
+    PowerSet "La tanque"
+	{
+		Power "Support"
+    {
+        ConditionSet
+        {
+            Condition
+            {
+                Compare(NumberOfCardsIn(OwnMelee), 0, >)    
+            }
+        }
+        InstructionSet
+        {
+            Instruction
+            {
+                ModifyAttack(2, OwnMelee)   
+            }
+        }
+    }
+	}
+    Text Phrase = "Don't call me Mother. If I'd given birth to you, I'm sure I'd remember.";
+    Text Position = "Melee";
+    Number Attack = 2;
+}
+

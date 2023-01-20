@@ -1,0 +1,12 @@
+UnitCard
+{
+    Text Name = "Viserion";
+    Text Path = "/band0/Viserion.jpg";
+    PowerSet "None"
+    {
+     }
+    Text Phrase = "Dracarys!";
+    Text Position = "Siege";
+    Number Attack = 15;
+}
+
